@@ -12,11 +12,13 @@ If you want to generate your own data with different number of vessels and quays
 can find this function in CSA folder <br />
 b) GA--> it stores the function and codes used for genetic algorithm---> you just need to run the file name starting with "Main_" <br />
 c) PSO--> it stores the function and codes used for particle swarm optimization algorithm---> you just need to run the file name starting with "Main_" <br />
-d) MILP--> it stores the function and codes used for exact method---> you just need to run the file name starting with "Main_" <br />
+d) MILP--> it stores the function and codes used for exact method---> you just need to run the file named"Journal_MultiQuay_MILP_randomData" <br />
 e) Plots--> it stores the function and codes used for ploting the results---> you just need to run the file name starting with "MainResultsFile" <br />
 
 2. Data_and_Results: <br />
 It contains data instances, results for all algorithms and all instances. <br />
+Naming convention for data file names: "10v1d1q" --> It shows the data instances considering 10 vessels, 1 day planning horizon, and 1 quay. <br />
+Naming convention for result file names: "BP_CSA_10v1d1q" --> BP (berthing position) results of CSA considering 10 vessels, 1 day, and 1 quay. (BT -> berthing time / BQ -> berthing quay) <br />
 
 References:
 -----------
